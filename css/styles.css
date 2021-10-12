@@ -1,0 +1,43 @@
+
+body
+{
+    opacity: 0.0;
+    background-color: #FAF3F3;
+    animation: opacityUp 2s forwards;
+    
+}
+
+img
+{
+    animation: sizeUp 2s forwards;
+}
+
+hr
+{
+    color: #E1E5EA;
+    border-style: dotted none none none;
+    border-width: 5px;
+}
+
+h1
+{
+    color: #4B6587;
+}
+
+h3
+{
+    color: #4B6587
+}
+
+/* Animation Keyframes */
+@keyframes opacityUp 
+{
+from {opacity: 0.0;}
+to {opacity: 1.0;}
+}
+
+@keyframes sizeUp
+{
+    from {height: 90px; width: 90px;}
+    to {height: 180px; width: 180px;}
+}
